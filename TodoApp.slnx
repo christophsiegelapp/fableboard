@@ -5,4 +5,7 @@
     <Project Path="src/TodoApp.Shared/TodoApp.Shared.fsproj" />
     <Project Path="src/TodoApp.Web/TodoApp.Web.fsproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TodoApp.Tests/TodoApp.Tests.fsproj" />
+  </Folder>
 </Solution>

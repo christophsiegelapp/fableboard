@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Fable.Elmish" Version="4.1.0" />
+    <PackageReference Include="Elmish" Version="4.1.0" />
     <PackageReference Include="Fable.Elmish.React" Version="4.0.0" />
   </ItemGroup>
 
