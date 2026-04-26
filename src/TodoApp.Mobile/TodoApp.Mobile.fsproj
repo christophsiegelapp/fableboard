@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Features/CreateTodo/Types.fs" />
+    <Compile Include="Features/CreateTodo/State.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TodoApp.Shared\TodoApp.Shared.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Elmish" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
