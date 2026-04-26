@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "git-mcp": {
+      "command": "node",
+      "args": [
+        "../../mcp/servers/git-mcp/build/index.js"
+      ],
+      "env": {}
+    },
+    "db-mcp": {
+      "command": "python3",
+      "args": [
+        "../../mcp/servers/db-mcp/main.py"
+      ],
+      "env": {
+        "DB_CONNECTION_STRING": "postgresql://user:pass@localhost:5432/mydb"
+      }
+    }
+  },
+  "globalContextFiles": [
+    "../../context/architecture.md",
+    "../../context/conventions.md"
+  ]
+}

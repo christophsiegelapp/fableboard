@@ -1,0 +1,24 @@
+{
+  "agentName": "gemini",
+  "mcpIntegration": {
+    "enabled": true,
+    "servers": [
+      {
+        "name": "git-mcp",
+        "command": "node",
+        "args": ["../../mcp/servers/git-mcp/build/index.js"]
+      },
+      {
+        "name": "db-mcp",
+        "command": "python3",
+        "args": ["../../mcp/servers/db-mcp/main.py"],
+        "env": {
+          "DB_CONNECTION_STRING": "postgresql://user:pass@localhost:5432/mydb"
+        }
+      }
+    ]
+  },
+  "defaultPrompts": {
+    "system": "You are Gemini, an expert coding assistant. Follow the guidelines in the root AGENTS.md and reference .ai/context files for architecture and conventions."
+  }
+}
