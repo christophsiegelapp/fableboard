@@ -1,0 +1,10 @@
+# Fableboard AI Instructions
+
+> This repository contains guidelines for AI agents working on this project.
+
+## AI Guidelines
+- [Agent Guidelines](.ai/instructions/AGENTS.md)
+- [TDD Skills](.ai/skills/tdd.md)
+- [Domain Modeling](.ai/skills/domain-model.md)
+- [To PRD](.ai/skills/to-prd.md)
+- [Grill Me](.ai/skills/grill-me.md)
