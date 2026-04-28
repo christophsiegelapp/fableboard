@@ -1,0 +1,1 @@
+Please use the central guidelines located at `.ai/instructions/AGENTS.md` and read all available skills in `.ai/skills/` before proceeding with any task. These files provide the authoritative rules and guidelines for this repository.
