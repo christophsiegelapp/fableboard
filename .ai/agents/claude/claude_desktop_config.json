@@ -13,7 +13,7 @@
         "../../mcp/servers/db-mcp/main.py"
       ],
       "env": {
-        "DB_CONNECTION_STRING": "postgresql://user:pass@localhost:5432/mydb"
+        "DB_CONNECTION_STRING": "REPLACE_WITH_YOUR_DB_CONNECTION_STRING"
       }
     }
   },
