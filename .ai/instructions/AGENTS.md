@@ -1,6 +1,6 @@
 # AI Agent Guidelines (AGENTS.md)
 
-Welcome to this repository! This file provides essential guidelines and context for any AI Coding Agent (e.g., Claude, Cursor, Copilot, Gemini) interacting with this codebase.
+Welcome to this repository! This file provides essential guidelines and context for any AI Coding Agent (e.g., Claude, Cursor, Copilot, Gemini) interacting with this codebase. Ensure you also check specific root files like CLAUDE.md, GEMINI.md, or .github/copilot-instructions.md.
 
 ## Repository Overview
 - **Structure:** See the `.ai/` directory for our central AI configurations, including MCP server settings and context files.
